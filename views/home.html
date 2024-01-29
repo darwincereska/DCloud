@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCloud by DurrStudios</title>
+    <link rel="shortcut icon" href="/cloud.png">
+    <link rel="stylesheet" href="drive.css">
+  <!-- Include the script to create the navbar dynamically -->
+  <script src="navbar.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="main-content">
+            <h1>DCloud - Simple Cloud Storage</h1>
+            <h3>by Durr Studios</h3>
+            <form method="post" action="/upload" enctype="multipart/form-data">
+                <h2>Upload a file</h2>
+                <input name="file" type="file" id="input" style="display:none">
+                <input type="submit" value="Upload" id="upload" class="btn">
+                <h3>Maximum file size: 1 GB</h3>
+                <h3 style="display:none" id="uploading">Uploading...</h3>
+            </form>
+            <br>
+            
+        </div>
+    </div>
+    <script>
+        
+
+        document.getElementById("upload").addEventListener("click", function (e) {
+            e.preventDefault();
+            document.getElementById("input").click();
+        });
+
+        document.getElementById("input").addEventListener("change", function () {
+            document.querySelector("form").submit();
+            document.getElementById("uploading").style.display = "block";
+        });
+    </script>
+</body>
+</html>
