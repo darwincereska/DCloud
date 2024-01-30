@@ -27,7 +27,10 @@ body {
     display: flex;
     gap: 20px;
 }
-
+.fileLink {
+    text-decoration:none;
+    color:black;
+}
 .btn {
     text-decoration: none;
     color: #333333;
@@ -38,7 +41,16 @@ body {
 .btn:hover {
     background-color: #e0e0e0;
 }
-
+.Navbtn {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.Navbtn:hover {
+    background-color: #e0e0e0;
+    color:black;
+}
 .main-content {
     padding: 20px;
 }

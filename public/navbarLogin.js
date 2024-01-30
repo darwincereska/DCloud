@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     navbar.innerHTML = `
         <img src="/cloud.png" class="cloud-image" alt="Cloud Image">
         <div class="nav-links">
-            <a class="btn" href='/register'>Register</a>
-            <a class='btn' href='/login'>Login</a>
+            <a class="Navbtn" href='/register'>Register</a>
+            <a class='Navbtn' href='/login'>Login</a>
             <!-- Add other navigation links as needed -->
         </div>
     `;

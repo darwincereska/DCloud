@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
-  <link rel='stylesheet' href='drive.css'>
+  <script src="darkModeToggle.js" defer></script>
+  <link id="stylesheetLink" rel="stylesheet" href="drive.css">
   <!-- Include the script to create the navbar dynamically -->
   <script src="navbarLogin.js" defer></script>
+  
+
 </head><br>
+<button id="moonButton" onclick="toggleDarkCookie()">🌙</button>
 <body class="container registerAndLogin">
 
   <form action="/login/authenticate" method="GET" class='registerForm'>
