@@ -1,2 +1,5 @@
 node_modules
 uploads
+db.json
+dcloud.sublime-project
+dcloud.sublime-workspace
