@@ -7,6 +7,17 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "db.json",
+			"settings":
+			{
+				"buffer_size": 188,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -93,6 +104,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "db.json",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
