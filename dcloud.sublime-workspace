@@ -7,6 +7,254 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "routes.js",
+			"settings":
+			{
+				"buffer_size": 9674,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					13,
+					1,
+					"",
+					null,
+					"AgAAAM8GAAAAAAAAlg8AAAAAAAAAAAAAlg8AAAAAAACWDwAAAAAAAHEDAAByb3V0ZXIucG9zdCgiL3JlZ2lzdGVyIiwgYXN5bmMgKHJlcSwgcmVzKSA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IGFjY291bnRzUGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICJhY2NvdW50cy5qc29uIik7CiAgICBjb25zdCB7IHVzZXJuYW1lLCBwYXNzd29yZCB9ID0gcmVxLmJvZHk7CgogICAgY29uc3QgYWNjb3VudHMgPSByZXF1aXJlKGFjY291bnRzUGF0aCk7CiAgICBjb25zdCBleGlzdGluZ1VzZXIgPSBhY2NvdW50cy5maW5kKCh1c2VyKSA9PiB1c2VyLnVzZXJuYW1lID09PSB1c2VybmFtZSk7CgogICAgaWYgKGV4aXN0aW5nVXNlcikgewogICAgICByZXR1cm4gcmVzCiAgICAgICAgLnN0YXR1cyg0MDApCiAgICAgICAgLnNlbmQoIlVzZXJuYW1lIGFscmVhZHkgZXhpc3RzLiBDaG9vc2UgYSBkaWZmZXJlbnQgb25lLiIpOwogICAgfQoKICAgIGNvbnN0IHNhbHRSb3VuZHMgPSAxMDsKICAgIGNvbnN0IGhhc2hlZFBhc3N3b3JkID0gYXdhaXQgYmNyeXB0Lmhhc2gocGFzc3dvcmQsIHNhbHRSb3VuZHMpOwoKICAgIGNvbnN0IG5ld1VzZXIgPSB7CiAgICAgIHVzZXJuYW1lOiB1c2VybmFtZSwKICAgICAgcGFzc3dvcmQ6IGhhc2hlZFBhc3N3b3JkLAogICAgfTsKCiAgICBhY2NvdW50cy5wdXNoKG5ld1VzZXIpOwogICAgZnMud3JpdGVGaWxlKGFjY291bnRzUGF0aCwgSlNPTi5zdHJpbmdpZnkoYWNjb3VudHMsIG51bGwsIDIpKTsKCiAgICByZXMuc3RhdHVzKDIwMCkuc2VuZCgiUmVnaXN0cmF0aW9uIHN1Y2Nlc3NmdWwuIFlvdSBjYW4gbm93IGxvZ2luLiIpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKGVycm9yKTsKICAgIHJlcy5zdGF0dXMoNTAwKS5zZW5kKCJJbnRlcm5hbCBTZXJ2ZXIgRXJyb3IiKTsKICB9Cn0pOw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABACgAAAAAAAM8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					26,
+					1,
+					"",
+					null,
+					"AgAAAHoEAAAAAAAAEggAAAAAAAAAAAAAEggAAAAAAAASCAAAAAAAAD0CAAByb3V0ZXIuZ2V0KCIvbG9naW4vYXV0aGVudGljYXRlIiwgYXN5bmMgKHJlcSwgcmVzKSA9PiB7CiAgY29uc3QgYWNjb3VudHNQYXRoID0gcGF0aC5qb2luKF9fZGlybmFtZSwgImFjY291bnRzLmpzb24iKTsKICBjb25zdCB7IHVzZXJuYW1lLCBwYXNzd29yZCB9ID0gcmVxLnF1ZXJ5OwogIGNvbnN0IGFjY291bnRzID0gcmVxdWlyZShhY2NvdW50c1BhdGgpOwoKICBjb25zdCB1c2VyID0gYWNjb3VudHMuZmluZCgoYWNjb3VudCkgPT4gYWNjb3VudC51c2VybmFtZSA9PT0gdXNlcm5hbWUpOwoKICBpZiAodXNlciAmJiAoYXdhaXQgYmNyeXB0LmNvbXBhcmUocGFzc3dvcmQsIHVzZXIucGFzc3dvcmQpKSkgewogICAgcmVzLmNvb2tpZSgibG9naW4iLCB1c2VybmFtZSk7CiAgICBjb25zb2xlLmxvZygiTG9naW4gU3VjY2Vzc2Z1bC4gQ29va2llIHNldC4iKTsKICAgIHJlcy5yZWRpcmVjdCgiLyIpOwogIH0gZWxzZSB7CiAgICBjb25zb2xlLmxvZygiSW52YWxpZCBsb2dpbiBjcmVkZW50aWFscy4iKTsKICAgIHJlcy5zdGF0dXMoNDAxKS5zZW5kKCJJbnZhbGlkIGxvZ2luIGNyZWRlbnRpYWxzIik7CiAgfQp9KTs",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC3BgAAAAAAAHoEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					29,
+					12,
+					"left_delete",
+					null,
+					"DAAAAD0GAAAAAAAAPQYAAAAAAAABAAAAKTwGAAAAAAAAPAYAAAAAAAABAAAAKDsGAAAAAAAAOwYAAAAAAAABAAAAbjoGAAAAAAAAOgYAAAAAAAABAAAAZTkGAAAAAAAAOQYAAAAAAAABAAAAazgGAAAAAAAAOAYAAAAAAAABAAAAbzcGAAAAAAAANwYAAAAAAAABAAAAVDYGAAAAAAAANgYAAAAAAAABAAAAZTUGAAAAAAAANQYAAAAAAAABAAAAdDQGAAAAAAAANAYAAAAAAAABAAAAYTMGAAAAAAAAMwYAAAAAAAABAAAAcjIGAAAAAAAAMgYAAAAAAAABAAAAZQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA+BgAAAAAAAD4GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					3,
+					"left_delete",
+					null,
+					"AwAAADEGAAAAAAAAMQYAAAAAAAABAAAAbjAGAAAAAAAAMAYAAAAAAAABAAAAZS8GAAAAAAAALwYAAAAAAAABAAAAZw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAyBgAAAAAAADIGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": "accounts"
+					},
+					"CAAAAC8GAAAAAAAAMAYAAAAAAAAAAAAAMAYAAAAAAAAxBgAAAAAAAAAAAAAxBgAAAAAAADIGAAAAAAAAAAAAADIGAAAAAAAAMwYAAAAAAAAAAAAAMwYAAAAAAAA0BgAAAAAAAAAAAAA0BgAAAAAAADUGAAAAAAAAAAAAADUGAAAAAAAANgYAAAAAAAAAAAAANgYAAAAAAAA3BgAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAvBgAAAAAAAC8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAADcGAAAAAAAAOAYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA3BgAAAAAAADcGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					33,
+					1,
+					"left_delete",
+					null,
+					"AQAAADcGAAAAAAAANwYAAAAAAAABAAAALg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA4BgAAAAAAADgGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					34,
+					8,
+					"left_delete",
+					null,
+					"CAAAADYGAAAAAAAANgYAAAAAAAABAAAAczUGAAAAAAAANQYAAAAAAAABAAAAdDQGAAAAAAAANAYAAAAAAAABAAAAbjMGAAAAAAAAMwYAAAAAAAABAAAAdTIGAAAAAAAAMgYAAAAAAAABAAAAbzEGAAAAAAAAMQYAAAAAAAABAAAAYzAGAAAAAAAAMAYAAAAAAAABAAAAYy8GAAAAAAAALwYAAAAAAAABAAAAYQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA3BgAAAAAAADcGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "user.tyok"
+					},
+					"CQAAAC8GAAAAAAAAMAYAAAAAAAAAAAAAMAYAAAAAAAAxBgAAAAAAAAAAAAAxBgAAAAAAADIGAAAAAAAAAAAAADIGAAAAAAAAMwYAAAAAAAAAAAAAMwYAAAAAAAA0BgAAAAAAAAAAAAA0BgAAAAAAADUGAAAAAAAAAAAAADUGAAAAAAAANgYAAAAAAAAAAAAANgYAAAAAAAA3BgAAAAAAAAAAAAA3BgAAAAAAADgGAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAvBgAAAAAAAC8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					36,
+					3,
+					"left_delete",
+					null,
+					"AwAAADcGAAAAAAAANwYAAAAAAAABAAAAazYGAAAAAAAANgYAAAAAAAABAAAAbzUGAAAAAAAANQYAAAAAAAABAAAAeQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA4BgAAAAAAADgGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "oken"
+					},
+					"BAAAADUGAAAAAAAANgYAAAAAAAAAAAAANgYAAAAAAAA3BgAAAAAAAAAAAAA3BgAAAAAAADgGAAAAAAAAAAAAADgGAAAAAAAAOQYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA1BgAAAAAAADUGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					52,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAURAAAAAAAABREAAAAAAABlAQAAcm91dGVyLmdldCgiL3VwbG9hZHMiLCBhc3luYyAocmVxLCByZXMpID0+IHsKICB0cnkgewogICAgY29uc3QgdXNlciA9IHJlcS5jb29raWVzLmxvZ2luOwogICAgY29uc3QgdXNlclVwbG9hZHNQYXRoID0gcGF0aC5qb2luKF9fZGlybmFtZSwgInVwbG9hZHMiLCB1c2VyKTsKICAgIGNvbnN0IGZpbGVzID0gYXdhaXQgZnMucmVhZGRpcih1c2VyVXBsb2Fkc1BhdGgpOwoKICAgIHJlcy5qc29uKHsKICAgICAgZmlsZXM6IGZpbGVzLAogICAgfSk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoZXJyb3IpOwogICAgcmVzLnN0YXR1cyg1MDApLnNlbmQoIkludGVybmFsIFNlcnZlciBFcnJvciIpOwogIH0KfSk7",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABqEgAAAAAAAAURAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					54,
+					1,
+					"",
+					null,
+					"AQAAAAURAAAAAAAAQRYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAFEQAAAAAAAAURAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					58,
+					1,
+					"",
+					null,
+					"AgAAAE0UAAAAAAAAvxYAAAAAAAAAAAAAvxYAAAAAAAC/FgAAAAAAAOwBAABhc3luYyBmdW5jdGlvbiBpc1ZhbGlkU2Vzc2lvbkJ5TG9naW5BbmRUb2tlbihsb2dpbiwgdG9rZW4pIHsKICB0cnkgewogICAgY29uc3QgYWNjb3VudHNQYXRoID0gcGF0aC5qb2luKF9fZGlybmFtZSwgImFjY291bnRzLmpzb24iKTsKICAgIGNvbnN0IGFjY291bnRzID0gcmVxdWlyZShhY2NvdW50c1BhdGgpOwoKICAgIGNvbnN0IHVzZXIgPSBhY2NvdW50cy5maW5kKChhY2NvdW50KSA9PiBhY2NvdW50LnVzZXJuYW1lID09PSBsb2dpbiAmJiBhY2NvdW50LnRva2VuID09PSB0b2tlbik7CgogICAgcmV0dXJuICEhdXNlcjsgLy8gUmV0dXJucyB0cnVlIGlmIHRoZSB1c2VyIHdpdGggdGhlIGxvZ2luIGFuZCB0b2tlbiBleGlzdHMsIGZhbHNlIG90aGVyd2lzZQogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCJFcnJvciB2YWxpZGF0aW5nIHNlc3Npb24gYnkgbG9naW4gYW5kIHRva2VuOiIsIGVycm9yKTsKICAgIHJldHVybiBmYWxzZTsKICB9Cn0",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA5FgAAAAAAAE0UAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					61,
+					1,
+					"left_delete",
+					null,
+					"AQAAABEUAAAAAAAAERQAAAAAAAA7AAAALy8gRnVuY3Rpb24gdG8gdmFsaWRhdGUgdGhlIHNlc3Npb24gYnkgYm90aCBsb2dpbiBhbmQgdG9rZW4",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABMFAAAAAAAABEUAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					67,
+					1,
+					"",
+					null,
+					"AgAAABIUAAAAAAAA4BYAAAAAAAAAAAAA4BYAAAAAAADgFgAAAAAAAHECAAAvLyBGdW5jdGlvbiB0byB2YWxpZGF0ZSB0aGUgc2Vzc2lvbiBieSBib3RoIGxvZ2luIGFuZCB0b2tlbgphc3luYyBmdW5jdGlvbiBpc1ZhbGlkU2Vzc2lvbkJ5TG9naW5BbmRUb2tlbihsb2dpbiwgdG9rZW4pIHsKICB0cnkgewogICAgY29uc3QgYWNjb3VudHNQYXRoID0gcGF0aC5qb2luKF9fZGlybmFtZSwgImFjY291bnRzLmpzb24iKTsKICAgIGNvbnN0IGFjY291bnRzID0gcmVxdWlyZShhY2NvdW50c1BhdGgpOwoKICAgIC8vIENoZWNrIGlmIHRoZXJlJ3MgYSB1c2VyIHdpdGggdGhlIHByb3ZpZGVkIGxvZ2luIGFuZCB0b2tlbgogICAgY29uc3QgdmFsaWRVc2VyID0gYWNjb3VudHMuc29tZSgoYWNjb3VudCkgPT4gYWNjb3VudC51c2VybmFtZSA9PT0gbG9naW4gJiYgYWNjb3VudC50b2tlbiA9PT0gdG9rZW4pOwoKICAgIHJldHVybiB2YWxpZFVzZXI7IC8vIFJldHVybnMgdHJ1ZSBpZiB0aGUgdXNlciB3aXRoIHRoZSBsb2dpbiBhbmQgdG9rZW4gZXhpc3RzLCBmYWxzZSBvdGhlcndpc2UKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcigiRXJyb3IgdmFsaWRhdGluZyBzZXNzaW9uIGJ5IGxvZ2luIGFuZCB0b2tlbjoiLCBlcnJvcik7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACDFgAAAAAAABIUAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "views/home.html",
+			"settings":
+			{
+				"buffer_size": 1552,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "accounts.json",
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAADlAAAAWwogIHsKICAgICJ1c2VybmFtZSI6ICJkdXJyd2luIiwKICAgICJwYXNzd29yZCI6ICIkMmIkMTAkVUx1Qy5IaW5NMklleUZuUWU3OWg0dWxzYXo5VlRha3FjNXhEM1REZjcyTnBkdHRqMTVoTDYiCiAgfSwKICB7CiAgICAidXNlcm5hbWUiOiAidGVzdCIsCiAgICAicGFzc3dvcmQiOiAiJDJiJDEwJFJtbTM3QlVRQlVXWE8zUVh6d0p5cWUzUW5LbEJubFdhUDF6cWVHYkE1RmpKLk11QzRoeFJxIgogIH0KXQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADlAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					5,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAewAAAAAAAAAAAAAAAAAAAAABAAAAfQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\n\t$0\n"
+					},
+					"AQAAAAEAAAAAAAAABQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					2,
+					"left_delete",
+					null,
+					"AgAAAAIAAAAAAAAAAgAAAAAAAAACAAAAICABAAAAAAAAAAEAAAAAAAAAAQAAAAo",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					11,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAEAAAAAAAAAAQAAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAACAAAAW10AAAAAAAAAAJkAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					18,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAACZAAAAWwogIHsKICAgICJ1c2VybmFtZSI6ICJkdXJyd2luIiwKICAgICJwYXNzd29yZCI6ICIkMmIkMTAkZVNqTkRXR0JJMkxKanRKUHgvWXhtdXFwdWI4SjVZSjhrdHNKem9kTHBiNEVJdEJEQkVnLzYiLAogICAgInRva2VuIjogIm9mZXRjeGYxMnJhbHMybHppbzgiCiAgfQpdAAAAAAAAAAAxAQAAAAAAAAAAAAAAAAAAAAAAADEBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB/AAAAAAAAAJIAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -19,6 +267,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Install Package Control"
+			],
 			[
 				"install ",
 				"Package Control: Install Package"
@@ -44,10 +304,12 @@
 	},
 	"expanded_folders":
 	[
-		"/media/darwin/SSD/dcloud"
+		"/mnt/usb/dcloud",
+		"/mnt/usb/dcloud/views"
 	],
 	"file_history":
 	[
+		"/mnt/usb/dcloud/db.json",
 		"/media/darwin/SSD/dcloud/accounts.json",
 		"/media/darwin/SSD/dcloud/db.json",
 		"/mnt/usb/dcloud/views/uploads.html",
@@ -70,7 +332,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -84,6 +346,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"uploads"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -105,12 +368,106 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5856,
+								5856
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3788.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/home.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "accounts.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -147,7 +504,7 @@
 	"project": "dcloud.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

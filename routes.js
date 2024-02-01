@@ -44,6 +44,7 @@ router.get("/login", (req, res) => {
   res.render("login.html");
 });
 // Checks if Login is correct
+// Checks if Login is correct
 router.get("/login/authenticate", async (req, res) => {
   const accountsPath = path.join(__dirname, "accounts.json");
   const { username, password } = req.query;
@@ -52,14 +53,29 @@ router.get("/login/authenticate", async (req, res) => {
   const user = accounts.find((account) => account.username === username);
 
   if (user && (await bcrypt.compare(password, user.password))) {
+    // Generate a unique token for the user
+    const token = user.token;
+
+    // Set both login and token cookies
     res.cookie("login", username);
-    console.log("Login Successful. Cookie set.");
+    res.cookie("token", token, { httpOnly: true });
+
+    console.log("Login Successful. Cookies set.");
     res.redirect("/");
   } else {
     console.log("Invalid login credentials.");
     res.status(401).send("Invalid login credentials");
   }
 });
+
+// Function to generate a unique token
+function generateToken() {
+  return Math.random().toString(36).substr(2) + Date.now().toString(36);
+}
+
+// Loads register.html
+// ...
+
 // Loads register.html
 router.post("/register", async (req, res) => {
   try {
@@ -75,16 +91,22 @@ router.post("/register", async (req, res) => {
         .send("Username already exists. Choose a different one.");
     }
 
+    const token = generateToken(); // Add a function to generate a unique token
+
     const saltRounds = 10;
     const hashedPassword = await bcrypt.hash(password, saltRounds);
 
     const newUser = {
       username: username,
       password: hashedPassword,
+      token: token,
     };
 
     accounts.push(newUser);
     fs.writeFile(accountsPath, JSON.stringify(accounts, null, 2));
+
+    // Set the token as a cookie
+    res.cookie("token", token, { httpOnly: true });
 
     res.status(200).send("Registration successful. You can now login.");
   } catch (error) {
@@ -92,11 +114,70 @@ router.post("/register", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
+
+// ...
+
+// Authentication Middleware
+router.use(async (req, res, next) => {
+  const exemptedRoutes = [
+    "/register",
+    "/uploads",
+    "/login",
+    "/file",
+    "/login/authenticate",
+  ];
+
+  const loggedInToken = req.cookies.token;
+  const validSession = await isValidSessionByToken(loggedInToken); // Add a function to validate the session by token
+
+  if (
+    exemptedRoutes.some((route) => req.path.startsWith(route)) ||
+    (loggedInToken && validSession)
+  ) {
+    next();
+  } else {
+    res.redirect("/login");
+  }
+});
+
+// Function to validate the session by token
+async function isValidSessionByToken(token) {
+  try {
+    const accountsPath = path.join(__dirname, "accounts.json");
+    const accounts = require(accountsPath);
+    const user = accounts.find((account) => account.token === token);
+    return !!user; // Returns true if the user with the token exists, false otherwise
+  } catch (error) {
+    console.error("Error validating session by token:", error);
+    return false;
+  }
+}
+
+// Function to generate a unique token
+function generateToken() {
+  return Math.random().toString(36).substr(2) + Date.now().toString(36);
+}
+
+// Loads all user files
+// ...
 // Loads all user files
 router.get("/uploads", async (req, res) => {
   try {
-    const user = req.cookies.login;
-    const userUploadsPath = path.join(__dirname, "uploads", user);
+    const loggedInUser = req.cookies.login;
+    const loggedInToken = req.cookies.token;
+
+    if (!loggedInUser || !loggedInToken) {
+      return res.status(401).send("Unauthorized");
+    }
+
+    // Validate the session by both login and token
+    const validSession = await isValidSessionByLoginAndToken(loggedInUser, loggedInToken);
+
+    if (!validSession) {
+      return res.status(401).send("Unauthorized");
+    }
+
+    const userUploadsPath = path.join(__dirname, "uploads", loggedInUser);
     const files = await fs.readdir(userUploadsPath);
 
     res.json({
@@ -107,6 +188,33 @@ router.get("/uploads", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
+
+
+// Function to validate the session by both login and token
+async function isValidSessionByLoginAndToken(login, token) {
+  try {
+    const accountsPath = path.join(__dirname, "accounts.json");
+    const accounts = require(accountsPath);
+
+    // Check if there's a user with the provided login and token
+    const validUser = accounts.find((account) => account.username === login && account.token === token);
+
+    if (validUser) {
+      console.log(`Valid session for user: ${login}`);
+      return true;
+    } else {
+      console.log(`Invalid session for user: ${login}`);
+      return false;
+    }
+  } catch (error) {
+    console.error("Error validating session by login and token:", error);
+    return false;
+  }
+}
+
+
+// ...
+
 // loads homepage
 router.get("/", (req, res) => {
   res.render("home.html");

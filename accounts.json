@@ -1,10 +1,12 @@
 [
   {
     "username": "durrwin",
-    "password": "$2b$10$ULuC.HinM2IeyFnQe79h4ulsaz9VTakqc5xD3TDf72Npdttj15hL6"
+    "password": "$2b$10$eSjNDWGBI2LJjtJPx/Yxmuqpub8J5YJ8ktsJzodLpb4EItBDBEg/6",
+    "token": "ofetcxf12rals2lzio8"
   },
   {
-    "username": "test",
-    "password": "$2b$10$Rmm37BUQBUWXO3QXzwJyqe3QnKlBnlWaP1zqeGbA5FjJ.MuC4hxRq"
+    "username": "durrwins",
+    "password": "$2b$10$vfFmWgfKCKJR55WuNozNuOeuJQXD1A2q7SV5jSHZa.lGw0nrovHBS",
+    "token": "w4wic464gffls2m4hui"
   }
 ]
