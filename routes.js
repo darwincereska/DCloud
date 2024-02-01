@@ -9,6 +9,7 @@ const fs = require("fs").promises;
 const path = require("path");
 const JSONdb = require("simple-json-db");
 const db = new JSONdb("./db.json");
+
 const cookieParser = require("cookie-parser");
 const sharp = require("sharp");
 const app = express();
