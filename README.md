@@ -37,6 +37,11 @@ Install dependencies
 ```bash
   npm install
 ```
+Run the Setup File
+
+```bash
+  node setup.js
+```
 
 Start the server
 
