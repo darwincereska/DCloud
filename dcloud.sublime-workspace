@@ -7,17 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "db.json",
-			"settings":
-			{
-				"buffer_size": 188,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -30,6 +19,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
 		],
 		"width": 0.0
 	},
@@ -51,18 +44,26 @@
 	},
 	"expanded_folders":
 	[
-		"/mnt/usb/dcloud"
+		"/media/darwin/SSD/dcloud"
 	],
 	"file_history":
 	[
+		"/media/darwin/SSD/dcloud/accounts.json",
+		"/media/darwin/SSD/dcloud/db.json",
+		"/mnt/usb/dcloud/views/uploads.html",
+		"/mnt/usb/dcloud/views/register.html",
+		"/mnt/usb/dcloud/views/login.html",
+		"/mnt/usb/dcloud/views/home.html",
+		"/mnt/usb/dcloud/public/navbar.js",
+		"/mnt/usb/dcloud/public/drive.css",
+		"/mnt/usb/dcloud/public/dark.css",
+		"/home/darwin/Downloads/PIA.run",
+		"/mnt/usb/dcloud/public/navbarLogin.js",
+		"/mnt/usb/dcloud/public/darkModeToggle.js",
 		"/mnt/usb/dcloud/.gitignore",
 		"/home/darwin/Desktop/scrcpy.sh",
 		"/mnt/usb/dcloud/README.md",
-		"/mnt/usb/dcloud/views/uploads.html",
 		"/mnt/usb/dcloud/public/style.css",
-		"/mnt/usb/dcloud/public/drive.css",
-		"/mnt/usb/dcloud/views/register.html",
-		"/mnt/usb/dcloud/views/login.html",
 		"/media/darwin/8B5D-047D/dcloud/start.sh",
 		"/media/darwin/8B5D-047D/dcloud/index.js",
 		"/media/darwin/8B5D-047D/dcloud/db.json"
@@ -104,38 +105,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "db.json",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 188,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								188,
-								188
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
