@@ -12,8 +12,10 @@ app.use(express.static(path.join(__dirname, "public")));
 // Import your routes
 const routes = require("./routes");
 
+
 // Use the routes in your Express app
 app.use(routes);
+
 
 // Start the server
 app.listen(port, () => {
