@@ -47,28 +47,7 @@ router.use((req, res, next) => {
 function generateToken() {
   return Math.random().toString(36).substr(2) + Date.now().toString(36);
 }
-// Authentication Middleware
-router.use(async (req, res, next) => {
-  const exemptedRoutes = [
-    "/register",
-    "/uploads",
-    "/login",
-    "/file",
-    "/login/authenticate",
-  ];
 
-  const loggedInToken = req.cookies.token;
-  const validSession = await isValidSessionByToken(loggedInToken); // Add a function to validate the session by token
-
-  if (
-    exemptedRoutes.some((route) => req.path.startsWith(route)) ||
-    (loggedInToken && validSession)
-  ) {
-    next();
-  } else {
-    res.redirect("/login");
-  }
-});
 // Function to validate the session by token
 async function isValidSessionByToken(token) {
   try {
