@@ -13,6 +13,7 @@ const cookieParser = require("cookie-parser");
 const sharp = require("sharp");
 const app = express();
 const mailRoutes = require("./routes/mailRoutes");
+const statsRoutes = require("./routes/statsRoutes")
 const loginRoutes = require("./routes/loginRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
 const routespath = 'routes'
@@ -20,6 +21,7 @@ const routespath = 'routes'
 router.use(mailRoutes);
 router.use(loginRoutes)
 router.use(uploadRoutes)
+router.use(statsRoutes)
 router.use(fileUpload({ createParentPath: true }));
 router.use(cookieParser());
 router.use(bodyParser.json());
@@ -27,9 +29,6 @@ router.use(bodyParser.urlencoded({ extended: true }));
 
 // Authentication Middleware
 router.use((req, res, next) => {
-  const adminRoutes = [
-    "/stats"
-    ]
   const exemptedRoutes = [
     "/register",
     "/uploads",
@@ -38,7 +37,7 @@ router.use((req, res, next) => {
     "/login/authenticate",
   ];
   const loggedIn = req.cookies.login;
-  
+
   if (exemptedRoutes.some((route) => req.path.startsWith(route)) || loggedIn) {
     next();
   } else {

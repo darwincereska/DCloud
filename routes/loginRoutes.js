@@ -23,7 +23,8 @@ router.use(bodyParser.urlencoded({ extended: true }));
 // Loads register.html
 router.post("/register", async (req, res) => {
   try {
-    const accountsPath = path.join('../', "accounts.json");
+    const accountsPath = path.join(process.cwd(), "accounts.json");
+
     const { username, password } = req.body;
 
     const accounts = require(accountsPath);
