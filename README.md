@@ -46,7 +46,7 @@ Run the Setup File
 Start the server
 
 ```bash
-  node index.js
+  node server.js
 ```
 
 

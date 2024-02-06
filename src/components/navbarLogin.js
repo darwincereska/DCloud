@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const navbar = document.createElement('div');
     navbar.className = 'navbar';
     navbar.innerHTML = `
-        <img src="/cloud.png" class="cloud-image"width=50px height=50px alt="Cloud Image">
+        <img src="assets/cloud.png" class="cloud-image"width=50px height=50px alt="Cloud Image">
         <div class="nav-links">
             <a class="Navbtn" href='/register'>Register</a>
             <a class='Navbtn' href='/login'>Login</a>

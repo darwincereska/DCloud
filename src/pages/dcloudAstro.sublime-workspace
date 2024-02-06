@@ -7,17 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "routes.js",
-			"settings":
-			{
-				"buffer_size": 3771,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -67,27 +56,22 @@
 	},
 	"expanded_folders":
 	[
-		"/mnt/usb/dcloud",
-		"/mnt/usb/dcloud/dcloudDocs",
-		"/mnt/usb/dcloud/dcloudMail",
-		"/mnt/usb/dcloud/public",
-		"/mnt/usb/dcloud/routes",
-		"/mnt/usb/dcloud/views"
+		"/home/darwin/dcloudAstro"
 	],
 	"file_history":
 	[
-		"/mnt/usb/dcloud/routes/mailRoutes.js",
-		"/mnt/usb/dcloud/routes/uploadRoutes.js",
-		"/mnt/usb/dcloud/routes/loginRoutes.js",
-		"/mnt/usb/dcloud/views/uploads.html",
-		"/mnt/usb/dcloud/public/navbarLogin.js",
-		"/mnt/usb/dcloud/public/navbar.js",
-		"/mnt/usb/dcloud/views/register.html",
-		"/mnt/usb/dcloud/views/login.html",
-		"/mnt/usb/dcloud/views/home.html",
-		"/mnt/usb/dcloud/views/file.html",
-		"/mnt/usb/dcloud/views/404.html",
 		"/mnt/usb/dcloud/routes.js",
+		"/mnt/usb/dcloud/views/404.html",
+		"/mnt/usb/dcloud/views/file.html",
+		"/mnt/usb/dcloud/views/home.html",
+		"/mnt/usb/dcloud/views/login.html",
+		"/mnt/usb/dcloud/views/register.html",
+		"/mnt/usb/dcloud/public/navbar.js",
+		"/mnt/usb/dcloud/public/navbarLogin.js",
+		"/mnt/usb/dcloud/views/uploads.html",
+		"/mnt/usb/dcloud/routes/loginRoutes.js",
+		"/mnt/usb/dcloud/routes/uploadRoutes.js",
+		"/mnt/usb/dcloud/routes/mailRoutes.js",
 		"/mnt/usb/dcloud/index.js",
 		"/mnt/usb/dcloud/mailRoutes.js",
 		"/mnt/usb/dcloud/README.md",
@@ -150,38 +134,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "routes.js",
-					"selected": true,
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3771,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								724,
-								724
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -221,7 +173,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "dcloud.sublime-project",
+	"project": "dcloudAstro.sublime-project",
 	"replace":
 	{
 		"height": 48.0
@@ -238,12 +190,12 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{

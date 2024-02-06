@@ -20,7 +20,7 @@ function updateStylesheet(darkMode) {
     var stylesheetLink = document.getElementById('stylesheetLink');
 
     // Use dark.css if darkMode is true, otherwise use drive.css
-    var stylesheetPath = darkMode ? 'dark.css' : 'drive.css';
+    var stylesheetPath = darkMode ? 'styles/dark.css' : 'styles/drive.css';
 
     // Update the href attribute of the stylesheet link
     stylesheetLink.href = stylesheetPath;

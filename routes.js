@@ -27,6 +27,9 @@ router.use(bodyParser.urlencoded({ extended: true }));
 
 // Authentication Middleware
 router.use((req, res, next) => {
+  const adminRoutes = [
+    "/stats"
+    ]
   const exemptedRoutes = [
     "/register",
     "/uploads",
@@ -35,7 +38,7 @@ router.use((req, res, next) => {
     "/login/authenticate",
   ];
   const loggedIn = req.cookies.login;
-
+  
   if (exemptedRoutes.some((route) => req.path.startsWith(route)) || loggedIn) {
     next();
   } else {

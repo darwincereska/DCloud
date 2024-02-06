@@ -1,7 +1,12 @@
+:root {
+    --body-color:#ffffff;
+    --nav-color:#f5f5f5;
+    --accent:#4285f4;
+}
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    background-color: var(--body-color);
     color: #333333;
 }
 
@@ -9,24 +14,25 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/*Navbar Style Start*/
 .navbar {
-    background-color: #f5f5f5;
+    background-color: var(--nav-color);
     padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cloud-image {
-    width: 50px;
-    height: 50px;
-}
-
 .nav-links {
     display: flex;
     gap: 20px;
 }
+.cloud-image {
+    width: 50px;
+    height: 50px;
+}
+/*Navbar Style end*/
+
 .fileLink {
     text-decoration:none;
     color:black;

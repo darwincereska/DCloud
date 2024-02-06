@@ -1,3 +1,8 @@
+:root {
+    --body-color:#111111;
+    --nav-color:#222222;
+    --accent:#4285f4;
+}
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -11,7 +16,7 @@ body {
 }
 
 .navbar {
-    background-color: #222222;
+    background-color: var(--nav-color);
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -27,7 +32,7 @@ body {
     display: flex;
     gap: 20px;
 }
-
+/*Navbar Style End*/
 .btn {
     text-decoration: none;
     color: black;
@@ -41,7 +46,7 @@ body {
     text-align: center;
 }
 .Navbtn:hover {
-    background-color: #333333;
+    background-color: var(--accent);
     color:white;
 }
 .btn:hover {
@@ -95,7 +100,7 @@ form.registerForm {
 }
 
 .registerForm button {
-    background-color: #4285f4;
+    background-color: var(--accent);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
