@@ -1,5 +1,5 @@
 
-![Logo](public/cloud.png)
+![Logo](src/assets/cloud.png)
 
 
 
