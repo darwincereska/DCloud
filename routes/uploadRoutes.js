@@ -182,7 +182,9 @@ async function isValidSessionByLoginAndToken(login, token) {
       return true;
     } else {
       console.log(`Invalid session for user: ${login}`);
+      
       return false;
+      // redirect('/login')
     }
   } catch (error) {
     console.error("Error validating session by login and token:", error);

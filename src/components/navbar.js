@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href='/'><img src="/assets/cloud.png" class="cloud-image" width=50px height=50px alt="Cloud Image"></a>
         
         <div class="nav-links">
-            <a class="btn Navbtn" href='/files'>Files</a>
-            <!-- Add other navigation links as needed -->
+            <a class="Navbtn" href='/files'>Files</a>
+            <a class='Navbtn' href='/login'>Logout</a>
         </div>
     `;
 

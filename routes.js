@@ -28,7 +28,7 @@ router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: true }));
 
 // Authentication Middleware
-router.use((req, res, next) => {
+router.use(async (req, res, next) => {
   const exemptedRoutes = [
     "/register",
     "/uploads",
@@ -37,13 +37,20 @@ router.use((req, res, next) => {
     "/login/authenticate",
   ];
   const loggedIn = req.cookies.login;
+  const token = req.cookies.token;
+  const login = req.cookies.login;
 
   if (exemptedRoutes.some((route) => req.path.startsWith(route)) || loggedIn) {
     next();
   } else {
-    res.redirect("/login");
+    if (await isValidSessionByLoginAndToken(login, token)) {
+      next();
+    } else {
+      res.redirect("/login");
+    }
   }
 });
+
 // Define Routes
 // Function to generate a unique token
 function generateToken() {
@@ -81,6 +88,7 @@ async function isValidSessionByLoginAndToken(login, token) {
     } else {
       console.log(`Invalid session for user: ${login}`);
       return false;
+      
     }
   } catch (error) {
     console.error("Error validating session by login and token:", error);
